@@ -264,4 +264,50 @@ s
     width: 15rem;
     height: .5rem;
     background-color: #71b100;
+    margin-top: 1rem;
+}
+
+/** Testimoniales **/
+.testimonial {
+    background-color: #71b100;
+    font-size: 2.4rem;
+    padding: 2rem;
+    color: white;
+    border-radius: 2rem;
+    color: white;
+    
+}
+
+.testimonial p {
+    text-align: right;
+}
+.testimonial blockquote::before {
+    content: '';
+    background-image: url(../img/comilla.svg);
+    width: 4rem;
+    height: 4rem;
+    display: block;
+    position: absolute;
+    left: -2rem;
+}
+
+.testimonial blockquote {
+    position: relative;
+    padding-left: 5rem;
+}
+
+/**Footer**/
+.site-footer {
+    background-color: #333333;
+    margin: 0;
+}
+.contenedor-footer {
+    padding: 3rem 0;
+    display:flex;
+    justify-content: space-between;
+    color: white;
+}
+
+.copyright {
+    margin: 0;
 }
